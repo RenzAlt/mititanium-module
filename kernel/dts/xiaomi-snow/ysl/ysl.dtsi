@@ -10,4 +10,3 @@
 #include "power.dtsi"
 #include "touchscreen.dtsi"
 #include "camera.dtsi"
-#include "regulator.dtsi"
