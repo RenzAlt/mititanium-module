@@ -4,6 +4,7 @@
 #include "pinctrl.dtsi"
 #include "cpu.dtsi"
 #include "sdhc.dtsi"
+#include "haptic.dtsi"
 #include "audio.dtsi"
 #include "display.dtsi"
 #include "regulator.dtsi"

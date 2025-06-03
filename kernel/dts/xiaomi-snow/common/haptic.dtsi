@@ -1,11 +1,10 @@
-&pmi_haptic { 
-	qcom,actuator-type = <1>;
-	qcom,wave-play-rate-us = <4165>;
+/* Haptics */
+&pmi_haptic{
 	qcom,vmax-mv = <3000>;
-	qcom,use-play-irq;
-	qcom,use-sc-irq;
-
-	/delete-property/ qcom,lra-auto-res-mode;
-	/delete-property/ qcom,lra-high-z;
-	/delete-property/ qcom,lra-res-cal-period;
+	wf_0 { qcom,wf-vmax-mv = <3000>; };
+	wf_1 { qcom,wf-vmax-mv = <3000>; };
+	wf_2 { qcom,wf-vmax-mv = <3000>; };
+	wf_3 { qcom,wf-vmax-mv = <3000>; };
+	wf_4 { qcom,wf-vmax-mv = <3000>; };
+	wf_5 { qcom,wf-vmax-mv = <3000>; };
 };
