@@ -14,12 +14,12 @@
 
 /dts-v1/;
 
-#include "qcom/msm8953.dtsi"
-#include "qcom/pmi8950.dtsi"
-#include "qcom/msm8953-pmi8950.dtsi"
-#include "qcom/msm8953-qrd-sku3.dtsi"
-#include "qcom/msm8953-mdss-panels.dtsi"
-#include "qcom/msm8953-camera-sensor-qrd.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/msm8953.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/pmi8950.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/msm8953-pmi8950.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/msm8953-qrd-sku3.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/msm8953-mdss-panels.dtsi"
+#include "../../../../../kernel/xiaomi/msm8953/arch/arm64/boot/dts/qcom/msm8953-camera-sensor-qrd.dtsi"
 
 #include "common/common.dtsi"
 #include "vince/vince.dtsi"
